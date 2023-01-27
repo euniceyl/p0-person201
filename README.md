@@ -122,7 +122,7 @@ Answer the following questions in your analysis. You'll submit your analysis as 
 - How many constructors are there in `Person201`?
 
 ### Question 2
-According to the `equals` method of the `Person201` class, when are two `Person201` objects considered to be equal? Is it case sensitive for their names or for the names of their buildings?
+According to the `equals` method of the `Person201` class, when are two `Person201` objects considered to be equal? Is it case sensitive for their names or for the names of their buildings? (Case sensitive means different answers are returned depending on capitalization).
 
 ### Question 3
 Does the main method of `Person201Demo` create any objects of type `Person201Utilities`? If so, why? If not, why is this not necessary?
