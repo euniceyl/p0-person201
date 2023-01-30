@@ -59,7 +59,12 @@
      * same building AND the same floor.
     */
     public boolean sameFloor(Person201 other) {
-        return true;
+        int floorA = this.myFloor;
+        int floorB = other.myFloor;
+        if (sameBuilding(other) && (floorA == floorB)) {
+            return true;
+        }
+        return false;
     }
 
     /**

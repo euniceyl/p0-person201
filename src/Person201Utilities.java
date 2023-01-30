@@ -36,7 +36,11 @@ public class Person201Utilities {
     */
     public static List<Person201> sameFloor(Person201[] people, Person201 person) {
         List<Person201> sameFloor = new ArrayList<>();
-
+        for (Person201 p : people) {
+            if (!p.equals(person) && p.sameFloor(person)) {
+                sameFloor.add(p);
+            }
+        }
         return sameFloor;
     }
 
